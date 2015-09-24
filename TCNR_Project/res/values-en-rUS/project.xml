@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="action_settings">About Us</string>
+    <string name="action_settings01">Change icon</string>
+    <string name="action_settings02">End</string>
+    <string name="showlocid">Show My Location</string>
+    <string name="msg">Message</string>
+    <string name="tNavigation">Path planning</string>
+    <string name="prompt_select_location">Please choose location</string>
+    <string name="prompt_select_map_type">Please select the type of</string>
+    <string name="Error"> Please do not play with this APP!!</string>
+    <string name="MyName">TCNR26 Ian Teng</string>
+    <string name="tname">Name：</string>
+    <string name="tbioup">Systolic pressure：</string>
+    <string name="tbiodw">Diastolic pressure：</string>
+    <string name="thear">Pulse：</string>
+    <string name="tweg">Weight：</string>
+    <string name="tdtime">Doctor Date：</string>
+    <string name="tdtext">Medical records：</string>
+    <string name="tmtime">Medication time：</string>
+    <string name="tmtext">Medication record：</string>
+    <string name="tcoent">Personal notes：</string>
+    <string name="tid">Record Number：</string>
+    <string name="tbtnadd">Increase record</string>
+    <string name="time">Please click on Time</string>
+    <string name="m1405_i005">List</string>
+    <string name="m1405_tit">Display information：</string>
+    <string name="tbtnup">Update record</string>
+    <string name="tbtndel">Delete Records</string>
+
+    <string-array name="ListItem">
+        <item>Home</item>
+        <item>Health records</item>
+        <item>Records Management</item>
+        <item>Life story</item>
+        <item>Film Journal article</item>
+        <item>Medical institutions navigation(GMapv3)</item>
+        <item>Police and fire authorities locate information(GMapv3)</item>
+        <item>Recreational attractions positioning trajectory(GMapv2)</item>
+        <item>Intimate exhort(GCM)</item>
+    </string-array>
+
+</resources>

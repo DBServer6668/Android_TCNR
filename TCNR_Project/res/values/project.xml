@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="action_settings">關於我們</string>
+    <string name="action_settings01">變更圖示</string>
+    <string name="action_settings02">結束</string>
+    <string name="showlocid">顯示我的位置</string>
+    <string name="msg">訊息</string>
+    <string name="tNavigation">路徑規劃</string>
+    <string name="prompt_select_location">請選擇地點</string>
+    <string name="prompt_select_map_type">請選擇類型</string>
+    <string name="Error">這個真的沒有，請不要玩弄這支APP!!</string>
+    <string name="MyName">TCNR26 鄧昭冠</string>
+    <string name="tname">姓名：</string>
+    <string name="tbioup">收縮壓：</string>
+    <string name="tbiodw">舒張壓：</string>
+    <string name="thear">脈搏：</string>
+    <string name="tweg">體重：</string>
+    <string name="tdtime">就醫日期：</string>
+    <string name="tdtext">就醫紀錄：</string>
+    <string name="tmtime">用藥時間：</string>
+    <string name="tmtext">用藥紀錄：</string>
+    <string name="tcoent">個人記事：</string>
+    <string name="tid">紀錄編號：</string>
+    <string name="tbtnadd">增加紀錄</string>
+    <string name="time">請點選時間</string>
+    <string name="m1405_i005">列表</string>
+    <string name="m1405_tit">顯示資料:</string>
+    <string name="tbtnup">更新紀錄</string>
+    <string name="tbtndel">刪除紀錄</string>
+
+    <string-array name="ListItem">
+        <item>首頁</item>
+        <item>健康紀錄</item>
+        <item>紀錄管理</item>
+        <item>生活點滴</item>
+        <item>影視文刊</item>
+        <item>醫療機構定位導航(GMapv3)</item>
+        <item>警消機關定位資訊(GMapv3)</item>
+        <item>遊憩景點定位軌跡(GMapv2)</item>
+        <item>貼心叮嚀(GCM)</item>
+    </string-array>
+
+</resources>
