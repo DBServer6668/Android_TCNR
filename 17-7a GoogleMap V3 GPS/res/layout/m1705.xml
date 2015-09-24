@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tcnr14.com.example1705.M1705" >
+
+    <Spinner
+        android:id="@+id/spnLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:alpha="0.4"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/prompt_select_location" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/spnLocation" />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:alpha="20"
+        android:background="#66cccccc"         
+        android:textColor="@drawable/teal"
+        android:text="@string/showlocid"/>
+
+</RelativeLayout>
+

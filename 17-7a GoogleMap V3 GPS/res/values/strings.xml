@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">17-7a Google map V3 GPS</string>
+    <string name="prompt_select_location">請選擇地點</string>
+    <string name="action_settings01">GoogleMap</string>
+    <string name="action_settings02">GoogleMap(jQuery Mobile)</string>
+    <string name="showlocid">顯示我的位置</string>
+    <string name="Error">這個真的沒有，請不要玩弄這支APP!!</string>
+    <string name="MyName">TCNR26 鄧昭冠</string>
+
+</resources>
