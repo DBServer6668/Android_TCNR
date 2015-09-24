@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".M1701" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spnLocation"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <Spinner
+        android:id="@+id/spnLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spnMapType"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/spnMapType"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/prompt_select_location" />
+
+    <Spinner
+        android:id="@+id/spnMapType"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/prompt_select_map_type" />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spnMapType"
+        android:layout_marginTop="@dimen/Top"
+        android:alpha="20"
+        android:text="@string/showlocid" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtOutput"
+        android:layout_marginTop="@dimen/Top"
+        android:alpha="20"
+        android:text="@string/msg" />
+
+    <TextView
+        android:id="@+id/MyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/MyName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">17-4 GoogleMap V2 GPS</string>
+    <string name="prompt_select_location" >請選擇地點</string>
+    <string name="prompt_select_map_type" >請選擇類型</string>
+    
+    <string name="action_settings01">變更圖示</string>
+    <string name="action_settings02">結束</string>
+        
+    <string name="showlocid">顯示我的位置</string>
+    <string name="msg">訊息</string>
+    
+    <string name="Error">這個真的沒有，請不要玩弄這支APP!!</string>
+    <string name="MyName">TCNR26 鄧昭冠</string>
+</resources>
