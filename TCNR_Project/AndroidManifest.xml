@@ -57,7 +57,7 @@
         <!-- <uses-library android:name="com.google.android.maps" /> -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDPpjyTi8Sd0RFme4RvVm_m_4Z029Eq01M" />
+            android:value="AIzaSyApKGYB09afe5Xutpvwg7ATzB9RVNkcf2o" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
