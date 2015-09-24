@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">14-1 Game 電腦猜拳遊戲(SharedPreferences)</string>
+    <string name="action_settings">Settings</string>
+    <string name="Error">這個真的沒有，請不要玩弄這支APP!!</string>
+    <string name="MyName">TCNR26 鄧昭冠</string>
+
+</resources>

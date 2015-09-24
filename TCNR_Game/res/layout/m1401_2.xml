@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp" >
+
+    <TextView
+        android:id="@+id/m1401_2_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1401_2_t001"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m1401_2_t001"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/m1401_2_t001"
+        android:layout_marginTop="@dimen/Top"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/m1401_2_t002"
+        android:layout_marginTop="30dp"
+        android:text="@string/m1401_2_t003"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1401_2_t003"
+        android:layout_marginTop="@dimen/Top"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/m1401_2_t004"
+        android:layout_marginTop="30dp"
+        android:text="@string/m1401_2_t005"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m1401_2_t001"
+        android:layout_below="@+id/m1401_2_t005"
+        android:layout_marginTop="@dimen/Top"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/m1401_2_t006"
+        android:layout_marginTop="30dp"
+        android:text="@string/m1401_2_t007"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1401_2_t008"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m1401_2_t001"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/m1401_2_t007"
+        android:layout_marginTop="@dimen/Top"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/m1401_2_b001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m1401_2_t001"
+        android:layout_below="@id/m1401_2_t008"
+        android:layout_marginTop="@dimen/Normal"
+        android:text="@string/m1401_2_b001" />
+
+</RelativeLayout>

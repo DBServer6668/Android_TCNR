@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="m1401_t001">和電腦猜拳</string>
+    <string name="m1401_t002">電腦出拳:</string>
+    <string name="m1401_t003">玩家出拳:</string>
+    <string name="m1401_b001">剪刀</string>
+    <string name="m1401_b002">石頭</string>
+    <string name="m1401_b003">布</string>
+    <string name="m1401_t005">您的選擇:</string>
+    <string name="m1401_t006">判定輸贏:</string>
+    <string name="m1401_f001">恭喜，您贏了</string>
+    <string name="m1401_f002">哈哈哈，你看看你自己</string>
+    <string name="m1401_f003">平手耶，再來一次吧</string>
+    <string name="m1401_2_t001">全部局數：</string>
+    <string name="m1401_2_t003">玩家贏局數：</string>
+    <string name="m1401_2_t005">電腦贏局數：</string>
+    <string name="m1401_2_t007">平手局數：</string>
+    <string name="m1401_2_b001">回到遊戲</string>
+    <string name="m1401_b004">顯示統計資料</string>
+    <string name="m1401_b005">儲存局數資料</string>
+    <string name="m1401_b006">載入局數資料</string>
+    <string name="m1401_b007">清除局數資料</string>
+
+</resources>
