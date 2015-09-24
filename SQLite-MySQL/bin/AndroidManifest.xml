@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tcnr14.com.example.m1418"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="M1418spinner"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="M1418insert" >
+        </activity>
+        <activity android:name="M1418query" >
+        </activity>
+        <activity android:name="M1418browse" >
+        </activity>
+        <activity android:name="M1418update" >
+        </activity>
+        <activity android:name="M1418list" >
+        </activity>
+        <!-- <activity android:name="M1418spinner"></activity> -->
+        <provider android:name=".providers.FriendsContentProvider" android:authorities="tcnr14.com.example.m1418.providers.FriendsContentProvider"></provider>
+        <activity android:name="M1430"></activity>
+    </application>
+
+</manifest>

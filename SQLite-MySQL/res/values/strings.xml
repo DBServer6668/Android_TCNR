@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">14.18D SQLite-MySQL(ScheduledThreadPoolExecutor)</string>
+    <string name="action_settings">設定</string>
+    <string name="action_settings01">新增</string>
+    <string name="action_settings02">查詢</string>
+    <string name="action_settings03">修改</string>
+    <string name="action_settings04">清空</string>
+    <string name="action_settings05">批次增加</string>
+    <string name="action_settings06">列表</string>
+    <!-- <string name="action_settings07">下拉式列表</string> -->
+    <string name="action_settings08">測試</string>
+    <string name="action_settings09">匯入MySQL</string>
+    <string name="Error">這個真的沒有，請不要玩弄這支APP!!</string>
+    <string name="MyName">TCNR26 鄧昭冠</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tcnr14.com.example.m1418.M1418" >
+
+    <item
+        android:id="@+id/action_settings01"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings01"/>
+    <item
+        android:id="@+id/action_settings02"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings02"/>
+    <item
+        android:id="@+id/action_settings03"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings03"/>
+    <item
+        android:id="@+id/action_settings04"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings04"/>
+    <item
+        android:id="@+id/action_settings05"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings05"/>
+    <item
+        android:id="@+id/action_settings06"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings06"/>
+    <!--
+        <item
+        android:id="@+id/action_settings07"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings07"/>
+    -->
+
+    <item
+        android:id="@+id/action_settings08"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings08"/>
+    <item
+        android:id="@+id/action_settings09"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings09"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
