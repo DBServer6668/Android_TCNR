@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/m1407_tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1405_tit" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtid"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/m1407_tit"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_tid" />
+
+    <EditText
+        android:id="@+id/edtid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m1407_tit"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView1"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtName"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtid"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_tname" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtid"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView2"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtSex"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtName"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_tpassword" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView3"
+        android:editable="true"
+        android:password="true" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtAddr"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtpassword"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_temail" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpassword"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView4"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtAddr"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtemail"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_tgup" />
+
+    <EditText
+        android:id="@+id/edtgup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtemail"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView4"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/TextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtAddr"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtgup"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_tadd1" />
+
+    <EditText
+        android:id="@+id/edtadd1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtgup"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView4"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/TextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtAddr"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtadd1"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/m1440_tadd2" />
+
+    <EditText
+        android:id="@+id/edtadd2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtadd1"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/TextView4"
+        android:editable="true" />
+
+    <Button
+        android:id="@+id/btnup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtadd2"
+        android:layout_marginTop="@dimen/Top"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="更新" />
+
+    <Button
+        android:id="@+id/btndel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtadd2"
+        android:layout_marginTop="@dimen/Top"
+        android:layout_toRightOf="@+id/btnup"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="刪除" />
+
+    <TextView
+        android:id="@+id/MyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/Top"
+        android:text="@string/MyName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/Gray" />
+    
+</RelativeLayout>

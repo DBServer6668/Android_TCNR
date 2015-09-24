@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="m1405_t001">資料表清單</string>
+    <string name="m1405_i001">登入</string>
+    <string name="m1405_i002">登出</string>
+    <string name="m1405_i003">修改</string>
+    <string name="m1405_i004">清空</string>
+    <string name="m1405_i005">列表</string>
+    <string name="m1405_tit">顯示資料:</string>
+    <string name="m1405_i006">批次增加</string>
+    <string name="m1405_back">返回</string>
+    <string name="m1405_i007">結束</string>
+    <string name="m1405_i008">下拉列表</string>
+    <string name="m1416_i009">關於我</string>
+    <string name="m1416_i010">匯入MySQL</string>
+    <string name="i001">上傳到mysql</string>
+    <string name="m1440_tid">編號:</string>
+    <string name="m1440_tname">名稱:</string>
+    <string name="m1440_tpassword">密碼:</string>
+     <string name="m1440_temail">信箱:</string>
+    <string name="m1440_tgup">組別:</string>
+    <string name="m1440_tadd1">地址一:</string>
+    <string name="m1440_tadd2">地址二:</string>
+    <string name="m1440_tsin">登入</string>
+</resources>

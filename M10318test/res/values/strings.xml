@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">M10318test</string>
+    <string name="action_settings01">登入及編輯</string>
+    <string name="action_settings02">關於我</string>
+    <string name="action_settings03">結束</string>
+    <string name="action_settings04">登入</string>
+    <string name="action_settings05">登出</string>
+    <string name="action_settings06">修改</string>
+    <string name="action_settings07">WEB APP地圖測試(jQuery Mobile)</string>
+    <string name="Error">這個真的沒有，請不要玩弄這支APP!!</string>
+    <string name="MyName">TCNR26 鄧昭冠</string>
+
+</resources>

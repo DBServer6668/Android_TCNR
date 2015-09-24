@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tcnr14.com.example.M10318" >
+
+    <item
+        android:id="@+id/action_settings04"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings04"/>
+    <item
+        android:id="@+id/action_settings05"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings05"/>
+    <item
+        android:id="@+id/action_settings06"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings06"/>
+
+</menu>
